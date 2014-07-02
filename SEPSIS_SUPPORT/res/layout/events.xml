@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eventsRelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <TextView
+     android:id="@+id/eventsToVitals"
+     style="@style/GlassText.XSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+     android:text="@string/events_to_vitals" />
+    
+    <TextView
+        android:id="@+id/eventsToDS"
+        style="@style/GlassText.XSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/events_to_DS"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_alignBottom="@+id/eventsToDS"
+        android:layout_alignParentLeft="true"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/events"
+        style="@style/GlassText.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/events_screen_title" />
+    
+    <ScrollView
+        android:id="@+id/eventsScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/separator"
+        android:scrollbars="vertical|none" >
+
+	<TableLayout
+	    android:id="@+id/eventsTableLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:stretchColumns="3,4,5" >
+	    
+	    <TableRow
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="true" >
+	
+	        <TextView
+	            android:id="@+id/eventsRank"
+	            style="@style/GlassText.XSmall"
+	            android:text="@string/Rank"
+	            android:textSize="20sp" />
+	
+	        <TextView
+	            android:id="@+id/eventsTime"
+	            style="@style/GlassText.XSmall"
+	            android:text="@string/Time"
+	            android:textSize="20sp" />
+	
+	        <TextView
+	            android:id="@+id/eventsEvent"
+	            style="@style/GlassText.Small"
+	            android:text="@string/Event" />
+	
+	        <TextView
+	            android:id="@+id/eventsAttribute"
+	            style="@style/GlassText.Small"
+	            android:text="@string/Att" />
+
+	        <TextView
+	            android:id="@+id/eventsState"
+	            style="@style/GlassText.Small"
+	            android:text="@string/State" />
+
+	    </TableRow>
+	</TableLayout>
+	
+	</ScrollView>
+</RelativeLayout>

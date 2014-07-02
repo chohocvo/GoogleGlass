@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- App Resources -->
+    <string name="app_name">Sepsis Support</string>
+    <string name="start_sepsis_support">Sepsis Support</string>
+    
+    <string name="empty">...</string>
+    
+     <string-array name="yes_no_maybe">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Maybe</item>
+        <item>Unknown</item>
+    </string-array>
+    
+    <!-- Welcome Screen -->
+    <string name="welcome">Welcome to Sepsis Decision Support</string>
+    <string name="tap_scanner">Tap to scan QR code</string>
+    <string name="w_to_options">&#10096; Options</string>
+    <string name="w_to_recent_patients">Recent\nPatients &#10097;</string>
+    
+    <!--  Overview -->
+    <string name="Hosp_Adm_colon">Hospital Adm: </string>
+    <string name="Gender_colon">Gender: </string>
+    <string name="Current_State">Current State: </string>
+    <string name="RR">RR</string>
+    <string name="MAP">MAP</string>
+    <string name="SBP">SBP</string>
+    <string name="WBC">WBC</string>
+    
+    <!-- Recent Patients -->
+    <string name="recent_patients">Recent Patients</string>
+    <string name="no_patients">no recent patients</string>
+   
+    
+    <!-- Options -->
+    <string name="options">Options</string>
+    <string name="num_recent_patients">Number of Recent Patients</string>
+    <string name="screen_timeout">Screen Timeout</string>
+    <string name="set_screen_timeout">Set Screen Timeout</string>
+    <string name="set_num_recent_patients">Set Recent Patients</string>
+    <string name="head_gesture">Set Head Gestures</string>
+    <string name="reset_options">Reset Options</string>
+    <string name="reset_patients">Reset Patients</string>
+    
+    <!-- Vitals -->
+    <string name="vitals_screen_title">Vitals</string>
+    <string name="vitals_to_events">Events &#10097;</string>
+    <string name="vitals_to_overview">&#10096; Overview</string>
+    <string name="Bacteria_colon">Bacteria: </string>
+    <string name="WBC_colon">WBC: </string>
+    <string name="MAP_colon">MAP: </string>
+    <string name="Temp_colon">TEMP: </string>
+    <string name="State_colon">State: </string>
+    <string name="RespRate_colon">RR: </string>
+    <string name="SBP_colon">SBP: </string>
+    
+    <!-- Events -->
+    <string name="events_screen_title">Events</string>
+    <string name="events_to_DS">Decision &#10097;\nSupport</string>
+    <string name="events_to_vitals">&#10096; Vitals </string>
+    <string name="Rank">#</string>
+    <string name="Time">Time</string>
+    <string name="Event">Event</string>
+    <string name="Att">Attribute</string>
+    <string name="State">State</string>
+    
+    <!-- Decision Support -->
+    <string name="DS_screen_title">Decision Support</string>
+    <string name="DS_to_overview">Overview &#10097;</string>
+    <string name="DS_to_events">&#10096; Events</string>
+    <string name="CurrentState_colon">Current State:</string>
+    <string name="OptAct_colon">Optimal Action:</string>
+    <string name="AltAct_colon">Alternative Action:</string>
+    <string name="NextState_colon">Next State:</string>
+    
+    <!-- Medical Terms -->
+    <string name="sepsis">Sepsis</string>
+    <string name="patient_status">Patient Status</string>
+    <string name="patient_rompd">Patient ROMPD</string>
+    <string name="patientBlood">Patient Blood</string>
+    
+    <!-- Max Patient Setting -->
+	<string name="max_patient_setting">Max Recent Patients Display</string>
+	<string name="tap_to_save">Tap to save setting</string>
+	
+	<!-- Max Patient Setting -->
+	<string name="screen_timeout_setting">Screen Timeout Setting</string>
+	<string name="dob_colon">"DOB: "</string>
+    
+</resources>
